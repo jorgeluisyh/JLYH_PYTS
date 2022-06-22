@@ -1,0 +1,4 @@
+﻿arcpy.ListFields('distritos_peru')
+lf =arcpy.ListFields('distritos_peru')
+for x in lf:     print x.name
+for x in lf:     print(x.name)
